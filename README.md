@@ -41,17 +41,18 @@ Overall, this provided a general structure to how the evaluation of this LLM cou
 
 ## How to Run
 ### Clone the Repo:
-```git clone https://github.com/YKH2020/nlp-bent.git```
+```git clone https://github.com/YKH2020/nlp-bent.git```   
 ### Set up the environment:
-```pip install -r requirements.txt```
+```pip install -r requirements.txt```  
 ### Run training process of LLM:
-```python llm-train.py```
-After running the training process, the model weights will be saved in a folder named finetuned-philosophers-llama3.2-1b directly in this project path.
+Make sure the training dataset is under the same path of this llm-train.py file.  
+```python llm-train.py```  
+After running the training process, the model weights will be saved in a folder named finetuned-philosophers-llama3.2-1b directly in this project path.  
 ### Run inference process of LLM:
 You can download the folder with the model weights from google drive:
 https://drive.google.com/drive/folders/10YoDmCBdTZnnRFJLNuguBjsCcojf7jLk?usp=drive_link
-and save it under the project folder with the same name of this folder.
-If you finish the training process, the model weights will be saved to this project folder directly. 
+and save it under the same path of llm-inference.py.
+If you finish the training process, the model weights will be saved under the same path of llm-inference.py.    
 Run this command for inference process:
 ```python llm-inference.py```
 You can design the prompt of the naive llama2.3-1B model and the fine-tuned model and compare the response of each model. 
