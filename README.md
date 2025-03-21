@@ -34,7 +34,7 @@ MCQ measured correctness of the model as it forces the model to make a choice an
 
 Adversarial questions and Logical consistency questions were not created in the interest of time and lack of domain expertise. However, the goal was to assess robustness and contradictions respectively to further understand if the model understand philosophical concepts.
 
-Overall, this provided a general structure to how the evaluation of this LLM could be done and compare the fine tuned model with the base model to evaluate if the fine tuning improved performance or not. All scores on this exam were quite low, likely indicating a lack of quality data, or a sparse model, or a combination of both.
+Overall, this provided a general structure to how the evaluation of this LLM could be done and compare the fine tuned model with the base model to evaluate if the fine tuning improved performance or not. All scores on this exam were quite low, likely indicating a lack of quality data, or a sparse model, lack of sufficient evaluation data, low quality questions for evaluation, or a combination of all of the above.
 
 ## How to Run
 How to run:
