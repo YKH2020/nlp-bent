@@ -37,19 +37,18 @@ Adversarial questions and Logical consistency questions were not created in the 
 Overall, this provided a general structure to how the evaluation of this LLM could be done and compare the fine tuned model with the base model to evaluate if the fine tuning improved performance or not. All scores on this exam were quite low, likely indicating a lack of quality data, or a sparse model, lack of sufficient evaluation data, low quality questions for evaluation, or a combination of all of the above.
 
 ## How to Run
-How to run:
-1) Clone the Repo:
+### Clone the Repo:
 ```git clone https://github.com/YKH2020/nlp-bent.git```
-2) Set up the environment:
+### Set up the environment:
 ```pip install -r requirements.txt```
-3) Run training process of LLM:
+### Run training process of LLM:
 ```python llm-train.py```
 After running the training process, the model weights will be saved in a folder named finetuned-philosophers-llama3.2-1b directly in this project path.
-4) Run inference process of LLM:
+### Run inference process of LLM:
 You can download the folder with the model weights from google drive:
 https://drive.google.com/drive/folders/10YoDmCBdTZnnRFJLNuguBjsCcojf7jLk?usp=drive_link
 and save it under the project folder with the same name of this folder.
-5) If you finish the training process, the model weights will be saved to this project folder directly. 
-6) Run this command for inference process:
+If you finish the training process, the model weights will be saved to this project folder directly. 
+Run this command for inference process:
 ```python llm-inference.py```
 You can design the prompt of the naive llama2.3-1B model and the fine-tuned model and compare the response of each model. 
